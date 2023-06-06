@@ -1,0 +1,27 @@
+#Bienvenida{
+    font-family: 'Ephesis', cursive;
+    color: white;
+    font-size: 150px;
+  }
+body{
+    background-image:url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/03/09/16468231897426.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 50px 70px;
+  
+  }
+  .menu {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-top: -150px;
+    color: aliceblue;
+  }
+
+  .menu a {
+    color: white;  /* Para heredar el color de texto del elemento padre */
+    text-decoration: none;  /* Para eliminar el subrayado de los enlaces */
+  }
+  
+  .menu a:visited {
+    color: white;  /* Cambia el color a morado después de visitar el enlace */
+  }

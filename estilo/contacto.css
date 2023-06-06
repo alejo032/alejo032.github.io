@@ -1,0 +1,36 @@
+body{
+    margin: 60px 90px;
+    background-color: gray;
+  }
+.textarea{
+    resize: none;
+    background-color: palevioletred;
+    width: 60%;
+    
+}
+input{
+  background-color: palevioletred;
+}
+.menu {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  top: -80px;
+  color: aliceblue;
+}
+.menu a {
+  color: white;  /* Para heredar el color de texto del elemento padre */
+  text-decoration: none;  /* Para eliminar el subrayado de los enlaces */
+}
+
+.menu a:visited {
+  color: white;  /* Cambia el color a morado después de visitar el enlace */
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    position: static;
+    float: none;
+    top: 0;
+    display: block;
+  }
+}
